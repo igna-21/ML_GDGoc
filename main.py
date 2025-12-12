@@ -1,6 +1,6 @@
 import random
 
-file = 'Study jam 1\dengan library random\data.txt'
+file = 'data.txt'
 
 with open(file, "w") as f:
     pass
@@ -19,4 +19,5 @@ for line in lines_list:
         print("angka:", line.strip(), "adalah Ganjil")
     else:
         print("angka:", line.strip(), "adalah Genap")
+
 
