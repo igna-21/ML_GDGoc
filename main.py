@@ -1,4 +1,4 @@
-file = 'Study jam 1\dengan data sudah ditentukan\data.txt'
+file = 'data.txt'
 
 with open(file, 'r') as file:
     lines_list = file.readlines()
